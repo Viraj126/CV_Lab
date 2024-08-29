@@ -37,6 +37,6 @@ def segment_color(image_path, lower_bound, upper_bound):
 
 # Example usage
 path = 'cat.png'
-lb = [0, 0, 0]  # Lower bound of HSV
-ub = [179, 255, 255]  # Upper bound of HSV
+lb = [10, 30, 30]  # Lower bound of HSV
+ub = [90, 255, 255]  # Upper bound of HSV
 segment_color(path, lb, ub)
